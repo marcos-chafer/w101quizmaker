@@ -1,0 +1,31 @@
+ {
+    "manifest_version": 3,
+    "name": "Wizard 101 Trivia Maker",
+    "version": "0.1",
+    "description" : "w101 trivia completer",
+	"permissions": [
+		"storage",
+		"activeTab",
+		"tabs"
+	  ],
+    "icons": {
+		"48":"w101triviamaker_icon.png",
+    	"128" : "w101triviamaker_icon.png"
+    },
+	"background": {
+		"service_worker": "background.js",
+		"type":"module"
+	},
+    "action": {
+		"default_popup" : "popup.html"
+    },
+	"content_scripts": [
+		{
+		  "matches": ["<all_urls>"],
+		  "js": [
+			"content.js"
+			,"answers.js"
+		]
+		}
+	  ]
+ }
