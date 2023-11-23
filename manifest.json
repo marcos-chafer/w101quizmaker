@@ -1,7 +1,7 @@
  {
     "manifest_version": 3,
     "name": "Wizard 101 Trivia Maker",
-    "version": "0.1",
+    "version": "1.0.1",
     "description" : "w101 trivia completer",
 	"permissions": [
 		"storage",

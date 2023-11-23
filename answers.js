@@ -86,7 +86,7 @@ globalThis.answers = {
   "Who tries to raise a Gorgon Army?": "Phorcys",
   "What badge do you earn by defeating 100 Samoorai?": "Yojimbo",
   "Where has Pharenor been imprisoned?": "Skythorn Tower",
-  "Who makes the harpsichord for Shelus?": "Gretta Darkkettle",
+  "Who makes the harpsicord for Shelus?": "Gretta Darkkettle",
   'Who taunts you with: "Wizard, you will know the meaning of the word pain after we battle!"': "Aiuchi",
   "In Azteca, Morganthe enlisted the help of the:": "The Black Sun Necromancers",
   "Who thinks you are there to take their precious feathers?": "Takeda Kanryu",
@@ -111,7 +111,7 @@ globalThis.answers = {
   "Which villain terrorizes the fair maidens of Marleybone?": "Jaques the Scatcher",
   "In what world would you find the Spider Temple": "Zafaria",
   "Thaddeus Price is the Pigswick Academy Professor of what school?": "Tempest",
-  "Who was the greatest Aquilan Gladiator of all time? Answer:": "Dimachaerus",
+  "Who was the greatest Aquilan Gladiator of all time?": "Dimachaerus",
   "What was Ponce de Gibbon looking for in Azteca?": "The Water of Life",
   "Who haunts the Night Warren?": "Nosferabbit",
   "Who tells you how to get to Aquila?": "Harold Argleston",
@@ -152,7 +152,7 @@ globalThis.answers = {
   "What is a very common last name of the cats in Marleybone?": "O'Leary",
   "What style of artifacts are in the Royal Museum?": "Krokotopian",
   "What two names are on the Statues in the Marleybone cathedral?": "Saint Bernard and Saint Hubert",
-  "Arthur Wethersfield is a:": "Dog",
+  "Arthur Wethersfield is A:..": "Dog",
   "Who is not an officer you'll find around Marleybone?": "Officer Digmore",
   "Who is the dangerous criminal that is locked up, but escapes from Newgate Prison?": "Meowiarty",
   "What transports you from place to place in Marleybone?": "Hot Air Balloons",
@@ -169,7 +169,7 @@ globalThis.answers = {
   "What can be used to diminish the Nirini's powers in Krokotopia?": "Flame Gems",
   "What color is the door inside the boys dormroom?": "Red",
   "What's the name of the balance tree?": "Niles",
-  "Who prophesizes this? “The mirror will break, The horn will call, From the shadows I strike , And the skies will fall”.": "Morganthe",
+  'Who prophesizes this? "The mirror will break, The horn will call, From the shadows I strike , And the skies will fall..."': "Morganthe",
   "Why are the pixies and faeries on Unicorn Way evil?": "Rattlebones corrupted them.",
   "Zafaria is home to what cultures?": "Gorillas, Zebras, Lions",
   "Which one of these are not a symbol on the battle sigil?": "Wand",
@@ -185,7 +185,7 @@ globalThis.answers = {
   "Which of these locations is not in Wizard City?": "Digmore Station",
   "How many worlds of The Spiral are unlocked as of May 21st, 2014?": "12",
   "Who prophesizes this? “The mirror will break, The horn will call, From the shadows I strike , And the skies will fall…”": "Morganthe",
-  "What is the title of the book that is FLOATING around the Wizard City LIBRARY?": "Basic Wizarding & Proper Care of Familiars",
+  "What is the title of the book that is floating around the Wizard City Library?": "Basic Wizarding & Proper Care of Familiars",
 
   // "https://www.wizard101.com/quiz/trivia/game/wizard101-conjuring-trivia"
 
@@ -200,12 +200,12 @@ globalThis.answers = {
   "What level must you be to wear Dragonspyre crafted clothing?": "33",
   "How many portal summoning candles are in the Burial Mound?": "Three",
   "What is the shape on the weather vanes in the Shopping District?": "Half moon/moon",
-  "Which Queen is mentioned in the Marleybone book “The Golden Age”?": "Ellen",
+  'Which Queen is mentioned in the Marleybone book "The Golden Age"?': "Ellen",
   "The Swordsman Destreza was killed by:": "A Gorgon",
 
   // "https://www.wizard101.com/quiz/trivia/game/wizard101-adventuring-trivia"
 
-  "In Grizzleheim, the Ravens want to bring about:": "The Everwinter, to cover the world in ice",
+  "In Grizzleheim, the Ravens want to bring about:": "The Everwinter, to cover the world in ice:",
   "Who is in the top level of the Tower of the Helephant?": "Lyon Lorestriker",
   "How long do you have to wait to join a new match after fleeing in PVP?": "5 minutes",
   "What determines the colors of the manders in Krok?": "Where they come from and their school of focus",
@@ -215,7 +215,7 @@ globalThis.answers = {
   "Which of these are not a lore spell?": "Fire Dragon",
   "What is the name of the book stolen from the Royal Museum?": "The Krokonomicon",
   "What school is the Gurtok Demon focused on?": "Balance",
-  "What school is the spell Dark Nova?": "Shadow",
+  "What school is the spell Dark Nova": "Shadow",
   "What does the Time Ribbon Protect against?": "Time Flux",
   "What type of rank 8 spell is granted to Death students at level 58?": "Damage + DoT",
   "What hand does Lady Oriel hold her wand in?": "Trick question, she has a sword",
@@ -243,10 +243,11 @@ globalThis.answers = {
   "Which one isn't a Scholar by name?": "Caresini",
   "Which world doesn't have a pillar in Sivella?": "Monquista",
   "What type of item does Prospector Zeke want you to find in Valencia?": "Birds",
-  "You need a good eye to save these in Granchia…": "Art Objects",
+  "You need a good eye to save these in Granchia...": "Art Objects",
   "Who does Steed send you to speak to in Sivella?": "Thaddeus",
   "What's the name of a librarian in Sivella?": "Grassi",
   "The Mooshu Tower in Sivella is a replica of what?": "Tower of Serenity",
-  "What type of boat do you use to get from the docks to Sivella?": "Gondola"
+  "What type of boat do you use to get from the docks to Sivella?": "Gondola",
+  "What kind of disguise do you wear in Sivella?": "Clockwork"
   
 }
