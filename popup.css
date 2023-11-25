@@ -1,0 +1,18 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+.main-container a {
+    color: white;
+}
+.main-container a:visited {
+    color: rgb(0, 189, 0);
+}
+
+.main-container li {
+    font-size: large;
+    margin-bottom: 6px;
+}

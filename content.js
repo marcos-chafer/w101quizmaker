@@ -60,9 +60,6 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 function answerQuestion(question) {
 
-
-		
-	
 	const answers = document.getElementsByClassName("answerText")
 
 	console.log("The question is: "+question);
@@ -72,8 +69,24 @@ function answerQuestion(question) {
 	console.log("The answer is: ")
 	console.log(answer);
 
+	// If there's no answer, we click a random answer to prevent the extension from stopping
+	if (answer == undefined) {
+		// Getting a random answer (for now, it's just the first answer)
+		const randomAnswer = answers[0].parentElement.getElementsByClassName("largecheckbox")[0];
+		// We click it
+		setTimeout(() =>
+			randomAnswer.click()
+		,500)
+		// Clicking the button 
+		const nextQuestionButton = document.getElementById("nextQuestion");
+		setTimeout(() =>
+			nextQuestionButton.click()
+		,550)
+		return;
+	}
 
 
+	// If there's an answer (90% of cases)
 	for (let i=0; i<answers.length;i++) {
 		console.log(answers[i].textContent.trim());
 		if (answers[i].textContent.trim() == answer){

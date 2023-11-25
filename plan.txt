@@ -1,5 +1,0 @@
-La extensión hará:
-
-1- El usuario presionará el botón "Start" en el popup de la extensión.
-2- La extensión navegará hacia el URL del test.
-3- La extensión deberá contestar correctamente la pregunta y enviar la respuesta.
